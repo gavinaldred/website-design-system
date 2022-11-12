@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&family=Roboto+Condensed:ital@0;1&family=Space+Mono:ital@0;1&display=swap');
+body {
+    padding: 0 10%;
+background-color:#fcebeb;
+color: #291C19}
+  
+h1 {text-align: center;
+      font-family: "Space Mono";
+   
+}
+
+h2 {font-family: "Roboto Condensed"; font-size: 1.5em;}
+
+h3 {text-align: center; font-family: 'Roboto Condensed'; font-weight: 600; font-size: 16px;}
+
+p {font-family: 'Questrial'; font-weight: 400; font-size: 14px;}
+
+ li a {font-family: "questrial"; font-weight: 400; font-size: 13px; text-decoration: none; color:#291C19}
+ li  {font-family: "questrial"; font-weight: 400; font-size: 14px; text-decoration: none; color:#291C19}
+
+.bold {font-weight: 700;}
+
+.italic {font-style: italic;}
+
+.minimenu li {display: inline-block; padding: 0em 0.5em;}
+.minimenu {text-align: center;}
+.minimenu ul li+li:before {
+  padding: 8px;
+  color: #BFC9CA;
+  content: "/\00a0";
+}
+
+li a:hover {text-decoration: underline #E59866 ;}
+
+    .flex-container {
+        display: flex;
+        border: 2px solid #291C19;
+        padding: 5px;
+    }
+    
+    .flex-child {
+        flex: 1;
+        padding: 5px;
+    }  
+    
+    .flex-child:first-child {
+        margin-right: 20px;
+        padding: 5px;
+    } 
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+      .color-panel {
+        display: inline-block;
+        width: 32%;
+        text-align: center;
+        margin: 20px auto;
+        min-height: 100px;
+      }
+      .gray {
+        background-color: #BFC9CA;
+        color: #fff;
+      }
+      
+      .orange {
+        background-color: #E59866;
+        color: #fff;
+    
+      }
+      
+      .black {
+        background-color: #291C19;
+        color: #fff;
+      }
+      
+      .white {
+        background-color: #ffffff;
+        border: #291C19 solid 1px;
+      }
+
+      .pink {
+        background-color: #fcebeb;
+        border: #291C19 solid 1px;
+        color: #291C19;
+      }
+
+
+
+      .font-panel {
+        width: 49%;
+        display: inline-block;
+      }
+      
+      .font-label {
+        font-size: 20px;
+        text-decoration: underline;
+      }
+
+      .questrial {
+        font-family: 'Questrial';
+      }
+      
+      .roboto {
+        font-family: 'Roboto Condensed';
+      }
+      
+      .space-mono {
+        font-family: 'Space Mono', serif;}
+
+        .container {
+          border: 2px solid #291C19;
+          padding: 10px;
+          margin: 10px auto;
+        }
+        
+
+      .text-panel h1 {
+        font-weight: 700;
+        font-size: 2em;
+        font-family: 'Space Mono';
+        text-align: left;
+      }
+      
+      .text-panel h2 {
+        font-weight: bold;
+        font-size: 1.5em;
+        font-family: 'Roboto Condensed';
+      }
+      
+      .text-panel p {
+        font-weight: 400;
+        font-size: 14px;
+        font-family: 'Questrial'}
+
+        .button-panel {
+          width: 49%;
+   
+        }
+        .button1 {
+          background-color: #BFC9CA;
+          border: none;
+          color: white;
+          padding: 25px 50px;
+          text-align: center;
+          text-decoration: none;
+          font-size: 18px;
+          margin-top: 25px;
+          margin-bottom: 5px;
+          margin-left: 2px;
+          margin-right: 2px;
+          cursor: pointer;
+          border-radius: 5px;
+          
+        }
+        .button2{
+          background-color: #291C19;
+          border: none;
+          color: white;
+          padding: 25px 50px;
+          text-align: center;
+          text-decoration: none;
+          font-size: 18px;
+          margin: 5px 2px;
+          cursor: pointer;
+          border-radius: 5px;
+        }
+        .button3 {
+          background-color: #E59866;
+          border: none;
+          color: white;
+          padding: 25px 50px;
+          text-align: center;
+          text-decoration: none;
+          font-size: 18px;
+          margin: 5px 2px;
+          cursor: pointer;
+          border-radius: 5px;
+        }
+
+        .button1:hover { background-color: #E59866; box-shadow: 0px 2px #BFC9CA; color:#291C19;}
+        .button2:active {font-size: 22px;}
+        .button3:hover {background-color:rgba(229, 152, 102, 0) ; border: #291C19 solid 1px; color:#291C19;}
+        .button3:active {font-size: 22px;}
